@@ -7,7 +7,7 @@ include "layouts/header.php";
             <img src="../<?=$post['image'] ?>" height="400px">
             <h1><?=$post['title'] ?></h1>
             <p><?=$post['text'] ?></p>
-
+            <p><?=$post['created_at'] ?></p>
         </form>
     </div>
 <?php
